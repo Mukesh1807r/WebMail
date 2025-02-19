@@ -5,14 +5,13 @@ from email.mime.text import MIMEText
 # Sender and receiver details
 sender_email = "mukeshsec1807@gmail.com"
 receiver_email = "mukesh1807r@gmail.com"
-password = "jvsv aqmo tqzl cpbf"  # Use App Password for security
+password = "jv😜v a😜mo z😜😜u"  # Use App Password for security
 
 # Create the email message
 msg = MIMEMultipart()
 msg["From"] = sender_email
 msg["To"] = receiver_email
 msg["Subject"] = "Test Email from Python"
-
 # Email body
 body = "Hello, this is a test email sent using Python."
 msg.attach(MIMEText(body, "plain"))
